@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IBM_SDET]">
+  <parameter name="age" value="55"/>
+  <parameter name="height" value="170"/>
+  <test name="practice(failed)">
+    <groups>
+      <run>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="week3.practice">
+        <methods>
+          <include name="test3"/>
+          <include name="bmiClick"/>
+          <include name="enterValue"/>
+        </methods>
+      </class> <!-- week3.practice -->
+    </classes>
+  </test> <!-- practice(failed) -->
+</suite> <!-- Failed suite [IBM_SDET] -->

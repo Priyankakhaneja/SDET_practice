@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IBM_SDET">
+<groups>
+<run>
+
+<include name ="regression"/>
+<exclude name="smoke"/>
+
+</run>
+</groups>
+<parameter name="age" value="55"/>
+  <parameter name="height" value="170"/>
+
+  <test name="practice">
+    <classes>
+      <class name="week3.practice"/>
+    </classes>
+  </test> <!-- practice -->
+</suite> <!-- IBM_SDET -->

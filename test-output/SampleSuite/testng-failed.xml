@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SampleSuite]">
+  <test name="Sampletest(failed)">
+    <classes>
+      <class name="week3.testng2">
+        <methods>
+          <include name="bmiClick"/>
+          <include name="enterValue"/>
+          <include name="openSession"/>
+        </methods>
+      </class> <!-- week3.testng2 -->
+      <class name="week3.NewTest">
+        <methods>
+          <include name="test3"/>
+          <include name="bmiClick"/>
+          <include name="enterValue"/>
+        </methods>
+      </class> <!-- week3.NewTest -->
+    </classes>
+  </test> <!-- Sampletest(failed) -->
+</suite> <!-- Failed suite [SampleSuite] -->
